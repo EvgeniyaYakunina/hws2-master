@@ -54,6 +54,15 @@ export const friendMessage0: MessageType = {
 const HW1 = () => {
     return (
         <div id={'hw1'}>
+
+
+            <div style={{width: '100%', background: 'aliceblue', height: 100, display: 'flex', justifyContent: 'flex-end', alignItems: 'center'}}>
+                <div style={{height: 50, background: 'yellow', width: 300}}/>
+                <div style={{height: 50, background: 'red', width: 300}}/>
+            </div>
+
+
+
             <div className={s2.hwTitle}>Homework #1</div>
             <div className={s2.hw}>
                 {/*проверка отображения (не менять)*/}
