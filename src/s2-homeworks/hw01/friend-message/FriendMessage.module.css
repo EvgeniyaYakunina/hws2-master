@@ -1,17 +1,19 @@
 .friendMessage {
-
+background-color: red;
 }
 
 .friendImageAndText {
+    display: flex;
 
 }
 
 .friendImageAndText img {
-
+    height: 70px;
 }
 
 .friendText {
-
+    background-color: #f5f7fb;
+padding: 10px;
 }
 
 .friendText:after {
@@ -19,7 +21,8 @@
 }
 
 .friendName {
-
+color: #FFFFFF;
+    font-weight: 600;
 }
 
 .friendMessageText {
